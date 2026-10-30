@@ -1,7 +1,7 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "emdash",
-	"routes": [{ "pattern": "v-nm.com", "custom_domain": true }],
+	"routes": [{ "pattern": "origin.v-nm.com", "custom_domain": true }],
 	"vars": { "EMDASH_SITE_URL": "https://v-nm.com" },
 	"main": "./src/worker.ts",
 	"compatibility_date": "2026-02-24",
